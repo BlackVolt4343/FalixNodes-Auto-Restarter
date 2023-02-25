@@ -8,11 +8,11 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 # Declaring Infos
 
-MailAdress = input("Enter your Falix Email: ")
-Password = input("Enter your FalixPanel Password. Its Private. I dont get it: ")
-FalixNodesServerURL = input("Enter the URL to your FalixNodes Server-Panel: ")
+MailAdress = input("bendjemaamir@gmail.com")
+Password = input("Yasser_2011!")
+FalixNodesServerURL = input("https://dev-panel.falixnodes.net/server/f45039f2")
 #JavaVersion = input("Enter your Java Version. Java Version can be: java8, java11 or default: ")
-CheckServerIntervall = int(input("Enter how often the script should check if the Server is still running. (In seconds): "))
+CheckServerIntervall = int(input("120"))
 
 
 # Initializing Webdriver and making Chrome Headless. The other Options are used to bypass Cloudflare´s Bot Detection
